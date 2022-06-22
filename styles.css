@@ -20,39 +20,31 @@ h3 {
     margin-left: auto;
     margin-right: auto;
     max-width: 300px;
+    align-content: center;
 }
 
-.waffle {          
-    font-size: 30px;
+.waffle, .joes, .pie, .soup {          
+    
+}
+
+a:link {
     text-align: center;
-    padding: 30px;
+    text-decoration: none;
+    font-size: 30px;
     border: solid 3px white;
     margin-bottom: 20px;    
-    background: rgba(255,255,255,.25);    
-} 
-
-.joes {
-    font-size: 30px;
-    text-align: center;
-    padding: 30px;
-    border: solid 3px white;   
-    margin-bottom: 20px;     
-    background: rgba(255,255,255,.25);
-}
-
-.pie {
-    font-size: 30px;
-    text-align: center;
-    padding: 30px;
-    border: solid 3px white;   
-    margin-bottom: 20px;     
-    background: rgba(255,255,255,.25);
-}
-
-.soup {
-    font-size: 25px;
-    text-align: center;
-    padding: 30px;
-    border: solid 3px white;   
     background: rgba(255,255,255,.25); 
+    display: block;
+    color: midnightblue;
+}
+
+a:active {
+    text-decoration: none;
+    background: rgba(255,255,255,.5);
+    color: black;
+    border: solid 3px rgba(28, 29, 37, 0.247);
+}
+
+a:hover {
+    background: rgba(255,255,255,.1);
 }
