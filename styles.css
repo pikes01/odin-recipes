@@ -1,7 +1,58 @@
-div{
-    background-color: red;
-    color: white;
-    font-size: 32px;
+body {
+    background-color: lightslategray;
+}
+
+h1 {
+    font-family: 'Courier New';
     text-align: center;
-    font-weight: bold;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+}
+
+.menu {
+    
+}
+.column {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+.waffle {          
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    border: solid 3px white;
+    margin-bottom: 20px;    
+    background: rgba(255,255,255,.25);    
+} 
+
+.joes {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    border: solid 3px white;   
+    margin-bottom: 20px;     
+    background: rgba(255,255,255,.25);
+}
+
+.pie {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    border: solid 3px white;   
+    margin-bottom: 20px;     
+    background: rgba(255,255,255,.25);
+}
+
+.soup {
+    font-size: 25px;
+    text-align: center;
+    padding: 30px;
+    border: solid 3px white;   
+    background: rgba(255,255,255,.25); 
 }
