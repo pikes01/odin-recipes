@@ -8,13 +8,6 @@ body {
     color: black;
 }
 
-h3 {
-    text-align: ;
-}
-
-.menu {
-    
-}
 .column {
     padding: 10px;
     margin-left: auto;
@@ -23,8 +16,12 @@ h3 {
     align-content: center;
 }
 
-.waffle, .joes, .pie, .soup {          
-    
+#return {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 23px;
+    margin-bottom: 3px;
+    padding: 5px;
 }
 
 a:link {
