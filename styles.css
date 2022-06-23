@@ -2,14 +2,14 @@ body {
     background-color: lightslategray;
 }
 
-h1 {
+.header {
     font-family: 'Courier New';
     text-align: center;
     color: black;
 }
 
 h3 {
-    text-align: center;
+    text-align: ;
 }
 
 .menu {
