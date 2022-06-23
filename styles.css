@@ -35,13 +35,12 @@ a:link {
     color: midnightblue;
 }
 
-a:active {
-    text-decoration: none;
-    background: rgba(255,255,255,.5);
-    color: black;
-    border: solid 3px rgba(28, 29, 37, 0.247);
-}
-
 a:hover {
     background: rgba(255,255,255,.1);
+}
+
+a:active {
+    background-color: rgba(255, 254, 176, 0.438);
+    color: white;
+    border: solid 3px rgba(28, 29, 37, 0.247);
 }
