@@ -1,51 +1,55 @@
 body {
-    background-color: hsla(55, 36%, 70%, 0.541);
+  background-color: hsla(55, 36%, 70%, 0.541);
 }
 
 .header {
-    font-family: 'Courier New';
-    text-align: center;
-    color: black;
+  font-family: "Courier New";
+  text-align: center;
+  color: black;
 }
 
 .column {
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 300px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
 }
 
 #return {
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-    font-size: 23px;
-    margin-bottom: 3px;
-    padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  font-size: 23px;
+  margin-bottom: 3px;
+  padding: 5px;
 }
 
 a:link {
-    text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    border: solid 3px white;
-    margin-bottom: 20px;    
-    background: rgba(255,255,255,.25); 
-    display: block;
-    color: midnightblue;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  border: solid 3px white;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.25);
+  display: block;
+  color: midnightblue;
 }
 
 a:hover {
-    background: rgba(255,255,255,.1);
-    color: midnightblue;
-    box-shadow: 0 0 5px 5px hsla(55, 36%, 70%, 0.219);
+  background: rgba(255, 255, 255, 0.1);
+  color: midnightblue;
+  box-shadow: 0 0 5px 5px hsla(55, 36%, 70%, 0.219);
 }
 
 a:active {
-    background-color: hsla(54, 16%, 39%, 0.281);
-    color: midnightblue;
-    border: solid 3px hsla(55, 36%, 70%, 0.836);
+  background-color: hsla(54, 16%, 39%, 0.281);
+  color: midnightblue;
+  border: solid 3px hsla(55, 36%, 70%, 0.836);
 }
 
 a:visited {
-    color: midnightblue;
+  color: midnightblue;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
