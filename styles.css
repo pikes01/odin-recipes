@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(207, 202, 152, 0.541);
+    background-color: hsla(55, 36%, 70%, 0.541);
 }
 
 .header {
@@ -37,13 +37,13 @@ a:link {
 a:hover {
     background: rgba(255,255,255,.1);
     color: midnightblue;
-    box-shadow: 0 5px 15px rgba(220, 255, 22, 0.247);
+    box-shadow: 0 0 5px 5px hsla(55, 36%, 70%, 0.219);
 }
 
 a:active {
-    background-color: rgba(21, 255, 0, 0.050);
-    color: rgba(255, 8, 0, 0.377);
-    border: solid 3px rgba(21, 255, 0, 0.050);
+    background-color: hsla(54, 16%, 39%, 0.281);
+    color: midnightblue;
+    border: solid 3px hsla(55, 36%, 70%, 0.836);
 }
 
 a:visited {
