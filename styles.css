@@ -14,8 +14,13 @@ body {
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 300px;
+  max-width: 85%;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
+
 
 #return {
   font-family: Arial, Helvetica, sans-serif;
@@ -29,17 +34,18 @@ a:link {
   text-align: center;
   text-decoration: none;
   font-size: 30px;
-  border: solid 3px white;
+  border: solid 3px hsla(56, 22%, 38%, 0.541);
   margin-bottom: 20px;
   background: rgba(255, 255, 255, 0.25);
   display: block;
   color: midnightblue;
+  width: 300px;
 }
 
 a:hover {
   background: rgba(255, 255, 255, 0.1);
   color: midnightblue;
-  box-shadow: 0 0 5px 5px hsla(55, 36%, 70%, 0.219);
+  box-shadow: 0 0 5px 5px hsla(55, 36%, 70%, 0.655);
 }
 
 a:active {
