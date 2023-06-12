@@ -3,9 +3,11 @@ body {
 }
 
 .header {
-  font-family: "Courier New";
+  font-family:"suravaram";
   text-align: center;
   color: black;
+  letter-spacing: 3px;
+  word-spacing: 8px;
 }
 
 .column {
@@ -48,8 +50,4 @@ a:active {
 
 a:visited {
   color: midnightblue;
-}
-
-h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
