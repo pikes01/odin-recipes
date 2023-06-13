@@ -3,11 +3,15 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: center;
   font-family:"suravaram";
-  text-align: center;
-  color: black;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
   letter-spacing: 3px;
   word-spacing: 8px;
+  gap: 3px;
+  vertical-align: middle;
 }
 
 .column {
@@ -16,7 +20,7 @@ body {
   margin-right: auto;
   max-width: 85%;
   display: flex;
-  gap: 30px;
+  gap: 25px;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -33,27 +37,28 @@ body {
 a:link {
   text-align: center;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
+  font: 25px helvetica;
   border: solid 3px hsla(56, 22%, 38%, 0.541);
   margin-bottom: 20px;
   background: rgba(255, 255, 255, 0.25);
   display: block;
-  color: midnightblue;
+  color: rgb(0, 0, 0);
   width: 300px;
 }
 
 a:hover {
   background: rgba(255, 255, 255, 0.1);
-  color: midnightblue;
+  color: hsla(56, 22%, 38%, 0.541);
   box-shadow: 0 0 5px 5px hsla(55, 36%, 70%, 0.655);
 }
 
 a:active {
   background-color: hsla(54, 16%, 39%, 0.281);
-  color: midnightblue;
+  color: hsla(56, 22%, 38%, 0.541);
   border: solid 3px hsla(55, 36%, 70%, 0.836);
 }
 
 a:visited {
-  color: midnightblue;
+  color: hsla(56, 22%, 38%, 0.541);
 }
