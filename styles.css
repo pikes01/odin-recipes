@@ -51,7 +51,7 @@ a:link {
 a:hover {
   background: rgba(255, 255, 255, 0.1);
   color: hsla(56, 22%, 38%, 0.541);
-  box-shadow: 0 0 5px 5px hsla(55, 36%, 70%, 0.655);
+  box-shadow: 0 0 3px 3px hsla(55, 36%, 70%, 0.655);
 }
 
 a:active {
