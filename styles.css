@@ -68,3 +68,9 @@ a:visited {
 .tabcontent {
   display: none;
 }
+
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
