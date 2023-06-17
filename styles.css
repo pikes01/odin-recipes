@@ -2,8 +2,6 @@ body {
   background-color: hsla(55, 36%, 70%, 0.541);
 }
 
-
-
 .header {
   display: flex;
   justify-content: center;
@@ -19,7 +17,7 @@ body {
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 85%;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -58,7 +56,7 @@ a:hover {
 a:active {
   background-color: hsla(54, 16%, 39%, 0.281);
   color: hsla(57, 46%, 16%, 0.541);
-  border: solid 3px hsla(55, 36%, 70%, 0.836);
+  border: solid 1px hsla(55, 36%, 70%, 0.836);
 }
 
 a:visited {
@@ -67,6 +65,24 @@ a:visited {
 
 .tabcontent {
   display: none;
+  justify-content: center;
+  border: 1px dotted black;
+  width: 70%;
+  margin: auto;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 .topright {
