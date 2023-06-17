@@ -66,13 +66,28 @@ a:visited {
 .tabcontent {
   display: none;
   justify-content: center;
-  border: 1px dotted black;
-  width: 70%;
+  border: solid 1px hsla(56, 22%, 38%, 0.541);
+  width: 80%;
   margin: auto;
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1s;
-  height: 500px;
+  height: 700px;
   overflow-y: scroll;
+}
+
+#waffle::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color:  #3432148a;
+}
+
+#waffle::-webkit-scrollbar {
+  width: 3px;
+}
+
+#waffle::-webkit-scrollbar-track {
+  border-radius: 8px;
+  border: 1px solid #cacaca;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
 }
 
 @-webkit-keyframes fadeEffect {
