@@ -101,7 +101,10 @@ a:visited {
 }
 
 .topright {
-  float: right;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   cursor: pointer;
   font-size: 28px;
+  float: right;
 }
