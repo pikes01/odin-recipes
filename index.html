@@ -17,15 +17,15 @@
 
     <div class="tab">
       <div class="tablinks foods" onclick="openRecipe(event, 'waffle')"><a href="#">Waffle</a></div>
-      <div class="tablinks foods burger"><a href="#">Sloppy Joes</a></div>
-      <div class="tablinks foods pie"><a href="#">Chicken Pot Pie</a></div>
-      <div class="tablinks foods soup"><a href="#">Spring Vegetable Soup</a></div>
+      <div class="tablinks foods" onclick="openRecipe(event, 'burger')"><a href="#">Sloppy Joes</a></div>
+      <div class="tablinks foods" onclick="openRecipe(event, 'pie')"><a href="#">Chicken Pot Pie</a></div>
+      <div class="tablinks foods" onclick="openRecipe(event, 'soup')"><a href="#">Spring Vegetable Soup</a></div>
     </div>
 
     <div id="waffle" class="tabcontent">
       <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
       <h1>Waffle</h1>
-      <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F03%2F09%2F20513-classic-waffles-mfs-023.jpg" alt="A delicious waffle" height="300" width="300">
+      <img class="foodpic" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F03%2F09%2F20513-classic-waffles-mfs-023.jpg" alt="A delicious waffle" height="300" width="300">
       <h2>Description</h2>
       <p>A lovely, crispy waffle perfect for the morning.</p>
       <h3>Ingredients</h3>
@@ -47,6 +47,121 @@
       <h3>Nutritional Facts</h3>
       <p>
           <strong>Per Serving:</strong>  379 calories; protein 10.2g; carbohydrates 47.6g; fat 16.2g; cholesterol 112.8mg; sodium 899.1mg. 
+      </p>
+    </div>
+
+    <div id="burger" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+      <h1>Healthy Sloppy Joes with Lentils</h1>
+      <img class="foodpic" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F9223621.jpg" height="300" width="300">
+      <h2>Description</h2>
+      <p>This version of Sloppy Joes ups the nutrition ante by swapping the meat for lentils, and adding in extra veggies. Adjust this recipe to how you prefer your Sloppy Joes--make them sweeter with additional molasses, spicier with additional chili powder, or tangier with additional mustard. Serve warm, with your favorite rolls or buns, and top with sliced red onion and fresh spinach or lettuce, if desired.</p>
+      <h3>Ingredients</h3>
+      <ul>
+          <li>1 tablespoon vegetable oil</li>
+          <li>1 large onion, chopped</li>
+          <li>1 large carrot, peeled and chopped</li>
+          <li>1 green bell pepper, chopped</li>
+          <li>3 cloves garlic, minced</li>
+          <li>1 ½ teaspoons chili powder</li>
+          <li>1 teaspoon ground cumin</li>
+          <li>1 teaspoon paprika</li>
+          <li>1 teaspoon onion powder</li>
+          <li>1 teaspoon garlic powder</li>
+          <li>½ teaspoon freshly ground black pepper, or to taste/li>
+          <li>4 tablespoons tomato paste</li>
+          <li>2 cups water</li>
+          <li>1 (14.5 ounce) can no-salt-added diced tomatoes</li>
+          <li>1 cup red lentils, rinsed and drained</li>
+          <li>2 tablespoons molasses, or more to taste</li>
+          <li>1 tablespoon Worcestershire sauce</li>
+          <li>1 teaspoon prepared yellow mustard</li>
+          <li>1 teaspoon apple cider vinegar</li>
+          <li>¾ teaspoon kosher salt, or to taste</li>
+          <li>6 medium hamburger buns, split</li>
+      </ul>
+      <h3>Steps</h3>
+      <ol>
+          <li>Heat vegetable oil in a large skillet over medium heat. Add onion, carrot, bell pepper, and garlic. Cook, stirring frequently, until vegetables are softened, 7 to 9 minutes. Season with chili powder, cumin, paprika, onion powder, garlic powder, and black pepper. Cook and stir for 30 seconds. Mix in tomato paste, and cook another 60 seconds, stirring constantly.</li>
+          <li>Add water, diced tomatoes, and lentils, stirring to combine. Bring mixture to a gentle simmer, cover, reduce heat to low, and cook until lentils are tender, but not falling apart, 15 to 20 minutes.</li>
+          <li>Mix in molasses, Worcestershire sauce, mustard, vinegar, and salt. Cook, uncovered, an additional 10 minutes, or until mixture has thickened slightly. Taste, and adjust seasonings as needed. Allow to cool 5 minutes before serving on buns with desired toppings.</li>
+      </ol>
+      <h3>Cook's note:</h3>
+      <p>
+          For additional flavor, the water may be substituted with low-sodium chicken or vegetable broth.
+      </p>
+      <h3>Nutritional Facts</h3>
+      <p>
+          <strong>Per Serving:</strong>  629 calories; protein 23.1g; carbohydrates 110g; fat 11.1g; sodium 1235.7mg. Full Nutrition
+      </p>
+    </div>
+
+    <div id="pie" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+      <h1>Chicken Pot Pie</h1>
+      <img class="foodpic" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F03%2F09%2F26317-chicken-pot-pie-mfs-481.jpg" height="300" width="300">
+      <h2>Description</h2>
+      <p>A delicious chicken pie made from scratch with carrots, peas, and celery in a pre-made crust. Add thyme and poultry seasoning for more flavor.</p>
+      <h3>Ingredients</h3>
+      <ul>
+          <li>1 pound skinless, boneless chicken breast halves - cubed</li>
+          <li>1 cup sliced carrots</li>
+          <li>1 cup frozen green peas</li>
+          <li>½ cup sliced celery</li>
+          <li>⅓ cup butter</li>
+          <li>⅓ cup chopped onion</li>
+          <li>⅓ cup all-purpose flour</li>
+          <li>½ teaspoon salt</li>
+          <li>¼ teaspoon black pepper</li>
+          <li>¼ teaspoon celery seed</li>
+          <li>1 ¾ cups chicken broth</li>
+          <li>⅔ cup milk</li>
+          <li>2 (9 inch) unbaked pie crusts</li>
+      </ul>
+      <h3>Steps</h3>
+      <ol>
+          <li>Preheat the oven to 425 degrees F (220 degrees C.)</li>
+          <li>Combine chicken, carrots, peas, and celery in a saucepan; add water to cover and bring to a boil. Boil for 15 minutes, then remove from the heat and drain.</li>
+          <li>While the chicken is cooking, melt butter in another saucepan over medium heat. Add onion and cook until soft and translucent, 5 to 7 minutes. Stir in flour, salt, pepper, and celery seed. Slowly stir in chicken broth and milk. Reduce heat to medium-low and simmer until thick, 5 to 10 minutes. Remove from heat and set aside.</li>
+          <li>Place chicken and vegetables in the bottom pie crust. Pour hot liquid mixture over top. Cover with top crust, seal the edges, and cut away any excess dough. Make several small slits in the top crust to allow steam to escape.</li>
+          <li>Bake in the preheated oven until pastry is golden brown and filling is bubbly, 30 to 35 minutes. Cool for 10 minutes before serving</li>
+      </ol>
+      <h3>Nutritional Facts</h3>
+      <p>
+          <strong>Per Serving:</strong>  412 calories; protein 18.4g; carbohydrates 30.4g; fat 23.9g; cholesterol 54.9mg; sodium 517mg. Full Nutrition
+      </p>
+    </div>
+
+    <div id="soup" class="tabcontent">
+      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+      <h1>Spring Vegetable Soup</h1>
+      <img class="foodpic" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F617745.jpg" alt="A delicious waffle" height="300" width="300">
+      <h2>Description</h2>
+      <p>This vegetable soup is so good on a chilly spring night and even better with a grilled sandwich for lunch the next day. By the way, you can omit any veggies you chose, but don't use canned vegetables. I promise you it's just better this way.</p>
+      <h3>Ingredients</h3>
+      <ul>
+          <li>1 tablespoon vegetable oil</li>
+          <li>½ cup chopped onion</li>
+          <li>1 clove garlic, minced</li>
+          <li>1 medium potato, peeled and chopped/li>
+          <li>½ cup chopped broccoli</li>
+          <li>½ cup frozen corn</li>
+          <li>½ cup torn spinach</li>
+          <li>½ cup chopped fresh mushrooms</li>
+          <li>½ cup chopped carrots</li>
+          <li>¼ cup chopped cabbage</li>
+          <li>2 (32 fluid ounce) containers chicken broth</li>
+          <li>6 ounces egg noodles</li>
+          <li>1 cup canned white beans</li>
+      </ul>
+      <h3>Steps</h3>
+      <ol>
+          <li>Heat oil in a large pot over medium heat. Add onion and garlic; cook until tender. Stir in potato, broccoli, corn, spinach, mushrooms, carrots, and cabbage. Pour in chicken broth and bring to a boil. Reduce heat to low and simmer 20 minutes, or until potato is tender.</li>
+          <li>Stir egg noodles and white beans into the pot; continue cooking 7 minutes, or until noodles are tender and beans are heated through.</li>
+      </ol>
+      <h3>Nutritional Facts</h3>
+      <p>
+          <strong>Per Serving:</strong>   246 calories; protein 9.8g; carbohydrates 41g; fat 4.9g; cholesterol 27.7mg; sodium 1452mg. Full Nutrition
       </p>
     </div>
 

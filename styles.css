@@ -67,16 +67,16 @@ a:visited {
   border-radius: 30px 5px 5px 30px;
 }
 
-#waffle::-webkit-scrollbar-thumb {
+#waffle::-webkit-scrollbar-thumb, #burger::-webkit-scrollbar-thumb, #pie::-webkit-scrollbar-thumb, #soup::-webkit-scrollbar-thumb{
   border-radius: 5px;
   background-color:  #3432148a;
 }
 
-#waffle::-webkit-scrollbar {
+#waffle::-webkit-scrollbar, #burger::-webkit-scrollbar, #pie::-webkit-scrollbar, #soup::-webkit-scrollbar{
   width: 10px;
 }
 
-#waffle::-webkit-scrollbar-track {
+#waffle::-webkit-scrollbar-track, #burger::-webkit-scrollbar-track, #pie::-webkit-scrollbar-track, #soup::-webkit-scrollbar-track{
   border-radius: 8px;
   border: 10px solid hsla(55, 36%, 70%, 0.733);
   box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
@@ -106,4 +106,9 @@ a:visited {
   text-align: center;
   line-height:20px;
   background-color:rgba(255, 255, 255, 0.25);
+}
+
+.foodpic {
+  border: 10px solid hsla(56, 22%, 38%, 0.541);
+  border-radius: 20px;
 }
