@@ -22,19 +22,9 @@ body {
   gap: 10px;
 }
 
-
-#return {
-  font-family: Arial, Helvetica, sans-serif;
-  display: inline-block;
-  font-size: 23px;
-  margin-bottom: 3px;
-  padding: 5px;
-}
-
 a:link {
   text-align: center;
   text-decoration: none;
-  font-size: 25px;
   font: 25px helvetica;
   border: solid 1px hsla(56, 22%, 38%, 0.541);
   background: rgba(255, 255, 255, 0.25);
@@ -62,17 +52,19 @@ a:visited {
 }
 
 .tabcontent {
+  font-family: helvetica;
   display: none;
   justify-content: center;
   border: solid 1px hsla(56, 22%, 38%, 0.541);
+  background-color: rgba(255, 235, 205, 0.336);
   width: 80%;
   margin: auto;
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1s;
   height: 700px;
   overflow-y: scroll;
-  padding: 20px;
-  border-radius: 30px 5px 5px 30px;
+  padding: 10px 5px 5px 20px;
+  border-radius: 30px 5px 5px 10px;
 }
 
 #waffle::-webkit-scrollbar-thumb {
