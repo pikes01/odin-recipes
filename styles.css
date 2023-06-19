@@ -48,7 +48,7 @@ a:link {
 }
 
 a:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: hsla(0, 0%, 100%, 0.1);
   color: hsla(56, 22%, 38%, 0.541);
   box-shadow: 0 0 3px 3px hsla(55, 36%, 70%, 0.655);
 }
@@ -76,17 +76,17 @@ a:visited {
 }
 
 #waffle::-webkit-scrollbar-thumb {
-  border-radius: 8px;
+  border-radius: 5px;
   background-color:  #3432148a;
 }
 
 #waffle::-webkit-scrollbar {
-  width: 3px;
+  width: 10px;
 }
 
 #waffle::-webkit-scrollbar-track {
   border-radius: 8px;
-  border: 1px solid #cacaca;
+  border: 10px solid #cacaca;
   box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
 }
 
