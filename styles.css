@@ -34,7 +34,8 @@ body::-webkit-scrollbar {
   gap: 10px;
 }
 
-a:link {
+button {
+  cursor: pointer;
   text-align: center;
   text-decoration: none;
   font: 25px helvetica;
@@ -47,13 +48,13 @@ a:link {
   border-radius: 10px;
 }
 
-a:hover {
+button:hover {
   background: hsla(0, 0%, 100%, 0.856);
   color: hsla(56, 22%, 38%, 0.541);
   box-shadow: 0 0 3px 3px hsla(55, 36%, 70%, 0.655);
 }
 
-a:active {
+button:active {
   background-color: hsla(54, 16%, 39%, 0.945);
   color: hsla(57, 46%, 16%, 0.904);
   border: solid 1px hsl(55, 36%, 70%);
@@ -118,6 +119,12 @@ a:visited {
   text-align: center;
   line-height:20px;
   background-color:rgba(255, 255, 255, 0.25);
+}
+
+.topright:hover {
+  background: hsla(0, 0%, 100%, 0.856);
+  color: hsla(56, 22%, 38%, 0.541);
+  box-shadow: 0 0 3px 2px hsla(55, 36%, 70%, 0.655);
 }
 
 .foodpic {
