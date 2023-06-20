@@ -11,3 +11,11 @@ function openRecipe(evt, recipeName) {
   document.getElementById(recipeName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+window.onload = function () {
+  firstTab();
+};
+
+function firstTab() {
+document.getElementById("defaultOpen").click();
+}
